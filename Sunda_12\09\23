@@ -1,0 +1,18 @@
+## 1. nodarbības iegūtais
+
+1)DARBS AR MAPĒM
+Izveidot mapi- mkdir ABC
+Dzēst  mapi- rmdir ABC
+Pārbaudīt mapē saturošo (nepārvietojoties)- ls -la "mapes nosaukums"/
+
+2)PĀRVIETOŠANĀS STARP SAKNEM
+Atgriesties sakne- cd ..
+Nonākt saknē- cd .
+Atrašanās vieta- pwd
+
+3)FAILU IZVEIDE
+Izveidot failu- touxh text_1.txt
+Ierakstīt failā informāciju- echo 12345 > tekxt_1.txt
+Dzēst failus ar līdzīģiem nosaukumiem-  rm text_*.txt
+Izveidot/pārvietot failu noteiktā mapē- cp text_1.txt CDE/
+Mainīt faila nosaukumu- mv CDE/text_1.txt CDE/text_3.txt
