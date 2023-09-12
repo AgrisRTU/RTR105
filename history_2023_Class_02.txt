@@ -1,0 +1,67 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd
+    4  ls -lt
+    5  mkd ABC
+    6  mkdir ABC
+    7  pwd
+    8  ls -la
+    9  cd ABC/
+   10  ls -la
+   11  ls -lts ABC/
+   12  ls -lta ABC/
+   13  cd ..
+   14  rmdir ABC
+   15  ls -la
+   16  touch abc.txt
+   17  ls -la
+   18  echo La-la-la-la!
+   19  echo 12345 > tekxt_1.txt
+   20  cat text
+   21  cat teext_1.txt
+   22  cat text_1.txt
+   23  echo 6789 > text_1.txt
+   24  history
+   25  hexdump -C text_1.txt
+   26  echo 6789 >> text
+   27  echo 6789 >> text_1.tct
+   28  hexdump -C text_1.txt
+   29  cat text_1.txt
+   30  man echo
+   31  echo "12345\n6789"
+   32  echo -e "12345\n6789"
+   33  echo -e "12345\n\t6789"
+   34  echo -e "12345\r6789" > text_2.txt
+   35  cet text_2.txt
+   36  cat text_2.txt
+   37  ls text_2.txt
+   38  ls -l text_2.txt
+   39  -lt
+   40  ls -lt
+   41  mkdir CDE
+   42  ls -lt
+   43  cp text_1.txt
+   44  cp text_1.txt CDE/
+   45  pwd
+   46  ls -lt CDE/
+   47  pwd
+   48  mv CDE/text_1.txt CDE text_3.txt
+   49  ls -lt CDE
+   50  mv CDE/text_1.txt CDE\text_3.txt
+   51  ls -lt CDE
+   52  ls -lt CDE/
+   53  ls -lt CDE\
+   54  ls -lt CDE/
+   55  ls -lt CDE\
+   56  mv CDE/text_1.txt CDE/text_3.txt
+   57  cp text_1.txt CDE/
+   58  mv CDE/text_1.txt CDE/text_3.txt
+   59  ls -lt CDE/
+   60  rm text_*.txt
+   61  ls -lt
+   62  rm tekxt_*.txt
+   63  ls -lt
+   64  rm a*c.d*
+   65  hhistory
+   66  history
+   67  history > history_2023_Class_02.txt
