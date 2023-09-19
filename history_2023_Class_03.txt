@@ -1,0 +1,42 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  git --version
+    6  man git
+    7  git clone https://github.com/AgrisRTU/RTR105
+    8  ls
+    9  ls -lt
+   10  git clone https://github.com/AgrisRTU/RTR105 RTR105_1
+   11  ls -lt
+   12  ls -lt | grep RTR105
+   13  rm RTR105
+   14  man rm
+   15  rm -r RTR105
+   16  ls -tl
+   17  rm  RTR105/ -rt
+   18  rm -r RTR105
+   19  y
+   20  ls -lt
+   21  cd  ~/RTR105
+   22  ls -l
+   23  ls -la
+   24  cd .git
+   25  ls -la
+   26  cat nonfig
+   27  -lt
+   28  ls -lt
+   29  cat index
+   30  cat indexhexdump -C config
+   31  cat hexdump -C config
+   32  cat config
+   33  cd..
+   34  cd.RTR105
+   35  cd. RTR105
+   36  cat config
+   37  cd.. RTR105
+   38  ls -lt
+   39  cd..
+   40  cd ..
+   41  history
+   42  history > history_2023_Class_03.txt
