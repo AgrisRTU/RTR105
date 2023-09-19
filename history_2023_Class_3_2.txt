@@ -1,0 +1,133 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  git --version
+    6  man git
+    7  git clone https://github.com/AgrisRTU/RTR105
+    8  ls
+    9  ls -lt
+   10  git clone https://github.com/AgrisRTU/RTR105 RTR105_1
+   11  ls -lt
+   12  ls -lt | grep RTR105
+   13  rm RTR105
+   14  man rm
+   15  rm -r RTR105
+   16  ls -tl
+   17  rm  RTR105/ -rt
+   18  rm -r RTR105
+   19  y
+   20  ls -lt
+   21  cd  ~/RTR105
+   22  ls -l
+   23  ls -la
+   24  cd .git
+   25  ls -la
+   26  cat nonfig
+   27  -lt
+   28  ls -lt
+   29  cat index
+   30  cat indexhexdump -C config
+   31  cat hexdump -C config
+   32  cat config
+   33  cd..
+   34  cd.RTR105
+   35  cd. RTR105
+   36  cat config
+   37  cd.. RTR105
+   38  ls -lt
+   39  cd..
+   40  cd ..
+   41  history
+   42  history > history_2023_Class_03.txt
+   43  ls -lt
+   44  cat history_2023_Class_03.txt 
+   45  nano 
+   46  echoecho $0 bsh
+   47  echoecho $0 bash
+   48  echoecho $0 besh
+   49  cd ../Documents/
+   50  echo $0
+   51  echoecho $o bash
+   52  echoecho $0 bash
+   53  exit
+   54  history
+   55  whereis bash
+   56  ls -l /bin/pxd
+   57  ls -l /bin/pwd
+   58  cat /bin/pwd
+   59  whereis bash
+   60  whereis python
+   61  nano
+   62  ls -lt
+   63  where is pwd
+   64  whereis pwd
+   65  nano
+   66  hitory
+   67  history
+   68  whereis pwd
+   69  echo $PATH
+   70  whereis pwd
+   71  cd ~/RTR105
+   72  /home/user/RTR105/git-upload
+   73  nan
+   74  nano
+   75  chmod 754 git-upload
+   76  ls -lt
+   77  cd ..
+   78  ls -lt
+   79  chmod 754 git-upload
+   80  ls -lt
+   81  ped
+   82  pwd
+   83  echo $PATH
+   84  whereis pwd
+   85  git-upload
+   86  las -lt
+   87  ls -lt
+   88  PATH=$PATH:~/RTR105/
+   89  echo $PATH
+   90  git-upload
+   91  cp git-upload RTR105/
+   92  git-upload
+   93  ls -lt
+   94  nano git-upload 
+   95  git-upload
+   96  echo $PATH
+   97  cd RTR105
+   98  ls
+   99  rm git-upload 
+  100  cd ..
+  101  ls
+  102  mv git-upload RTR105
+  103  git-upload
+  104  cd RTR105
+  105  nano git-upload 
+  106  git-upload
+  107  nano git-upload 
+  108  git-upload
+  109  nano git-upload 
+  110  echo $PATH
+  111  ls -lt
+  112  git-upload
+  113  nano git-upload 
+  114  git-upload
+  115  ls -lta
+  116  nano git-upload 
+  117  cd .git
+  118  ls -lta
+  119  cd ~
+  120  pwd
+  121  ls -lt
+  122  mv RTR105/history_2023_Class_03.txt RTR105_1/
+  123  mv RTR105/git-upload RTR105_1/
+  124  cd RTR105_1
+  125  lt -ls
+  126  ls -lt
+  127  echo $PATHPATH=$PATH:~/RTR105_1/
+  128  echo $PATH
+  129  PATH=$PATH:~/RTR105_1/
+  130  echo $PATH
+  131  git-upload
+  132  history
+  133  history>history_2023_Class_3_2.txt
