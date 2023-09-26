@@ -2,6 +2,6 @@
 git add .
 git config --global user.name AgrisRTU 
 git config --global user.email Agris.Lapkovskis@edu.rtu.lv
-git commit -m "Cclass_4a"
+git commit -m "Class_5"
 git push origin main
 
