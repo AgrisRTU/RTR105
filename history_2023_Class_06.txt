@@ -1,0 +1,58 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/AgrisRTU/RTR105
+    4  ls -la
+    5  cd RTR105
+    6  ls
+    7  ls -la
+    8  nano Class
+    9  nano Class_06
+   10  nano print_test.c
+   11  print_test.c
+   12  echo print_test.c
+   13  print_test.c
+   14  nano print_test.c
+   15  print_test.c
+   16  gcc print_test.c
+   17  ls
+   18  ./a.out 
+   19  ls -lt
+   20  mkdir Class_07
+   21  mv print_test.c ./Class_07
+   22  ls ./Class_07
+   23  rm a.out 
+   24  cd Class_07
+   25  ls
+   26  gcc print_test.c 
+   27  ls
+   28  ./a.out 
+   29  nano print_test.c
+   30  ./a.out 
+   31  gcc print_test.c 
+   32  ./a.out 
+   33  ls
+   34  nano print_test.c
+   35  gcc print_test.c 
+   36  ./a.out 
+   37  nano print_test.c
+   38  gcc print_test.c 
+   39  ./a.out 
+   40  nano print_test.c
+   41  gcc print_test.c 
+   42  ./a.out 
+   43  nano print_test.c
+   44  gcc print_test.c 
+   45  ./a.out 
+   46  nano print_test.c
+   47  gcc print_test.c 
+   48  nano print_test.c
+   49  nano scan_test.c
+   50  gcc scan_test.c
+   51  ls -lt
+   52* 
+   53  ./a.out 
+   54  nano print_test.c
+   55  ls -lt
+   56  cd ..
+   57  ls -lt
+   58  history >history_2023_Class_06.txt
