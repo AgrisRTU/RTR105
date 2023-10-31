@@ -1,0 +1,10 @@
+Apzīmējums:
+"r"-read:Atveriet failu ievades operācijām. Failam ir jābūt.
+
+"w"-write:Izvades operācijām izveidojiet tukšu failu.
+Ja fails ar tādu pašu nosaukumu jau pastāv, tā saturs tiek izmests un fails tiek uzskatīts par jaunu tukšu failu.
+
+"a"-append: Atveriet failu izvadīšanai faila beigās. Izvades operācijas vienmēr ieraksta datus faila beigās, to paplašinot. 
+Pārvietošanas darbības (fseek, fsetpos, rewind) tiek ignorētas. Fails tiek izveidots, ja tas neeksistē.
+
+"r+"
