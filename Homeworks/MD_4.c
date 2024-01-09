@@ -18,12 +18,12 @@ int main()
    }
     else if (skaitlis < 0)
      {
-      printf("Ludzu ievadiet pozitivu skaitli!");
+      printf("Ievadiet pozitivu skaitli!");
       return 1;
      }
     
 
-  printf("Ludzu izvelaties datu tipu\nchar - 1, int - 2, long long int - 3\n");
+  printf("Izvelaties datu tipu\nchar - 1, int - 2, long long int - 3\n");
   scanf("%d", &i);
     
     
@@ -54,7 +54,7 @@ int main()
       }
 
         
-       printf("Jusu skaitla faktorials ir: %hhd \n", faktorials);
+       printf("Skaitla faktorials ir: %hhd \n", faktorials);
         
         
        break;
@@ -83,7 +83,7 @@ int main()
         }
         
         
-        printf("Jusu skaitla faktorials ir: %d \n", faktorials);
+        printf("Skaitla faktorials ir: %d \n", faktorials);
        
         
         
@@ -112,7 +112,7 @@ int main()
 
        }
       
-        printf("Jusu skaitla faktorials ir: %lld \n", faktorials);
+        printf("Skaitla faktorials ir: %lld \n", faktorials);
         
         
         
@@ -121,7 +121,7 @@ int main()
 
      default:
     {
-     printf("Ludzu ievadiet pareizu vertibu!\n");
+     printf("Ievadiet pareizu vertibu!\n");
     }
 
     }
