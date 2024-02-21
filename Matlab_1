@@ -1,0 +1,76 @@
+Uzdevums 1
+A = sym('a',[3 3])
+
+% Izteiksme kura kāpina kvadrātā
+A.*A 
+
+% Atvasināšana
+
+syms x
+diff(x^2)
+
+
+Uzdevums 2
+syms a x
+z= a *x^2;
+diff(z,x)
+
+diff(z,a)
+
+
+Uzdevums 3
+syms a b x
+z = a*x^2+b
+
+int(2*a*x,x)
+
+Uzdevums 4
+syms x y
+z= x^5 * y^3;
+diff(z,y)
+p=diff(z,y)
+int(p,y)
+syms x
+int(x^2,x,-3,3)
+
+
+Uzdevums 5
+syms x
+pi=3.14
+int(sin(x),x,0,pi)
+
+
+Uzdevums 6
+syms x
+y= sin(x)^2
+pi=3.14;
+a= pi/3;
+int(y,x,0,a)
+
+double(int(y,x,0,a))
+
+% Robežas
+
+syms x
+limit(1/x-1,x,1,'left')
+limit(1/x-1,x,1,'right')
+
+% Vienādojumu risināšana
+
+syms x
+solve(x^2-3*x+2==0,x)
+
+% Vienādojumu sistēmas
+
+syms x y
+[x_atb,y_atb]=solve(5*x+2*y==16,x-y==-1)
+x_atb =
+2
+y_atb =
+3
+
+
+Uzdevums 7
+% a+exp(b*x^2=a*x)==100
+syms x a
+solve(a+exp(b*x^2+a*x)==100,x)
